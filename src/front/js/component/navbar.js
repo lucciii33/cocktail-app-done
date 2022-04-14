@@ -52,7 +52,7 @@ export const Navbar = () => {
 								<Link to="/register" className="logo">
 									<h5 className="m-2 logolinea " style={{ color: '#0F0C24' }}>Register</h5>
 								</Link>
-								{store.loggId.email ? <h5 className="m-1 logolinea " onClick={() => actions.logOut()} style={{ color: '#0F0C24' }}>LogOut</h5> : <Link to="/signin" className="logo">
+								{store.loggId.email ? <h5 className="m-1 logolinea " onClick={() => actions.logOut()} style={{ color: '#0F0C24' }}>Log out</h5> : <Link to="/signin" className="logo">
 									<h5 className="m-1 logolinea " style={{ color: '#0F0C24' }}>Login</h5>
 								</Link>}
 							</nav>
